@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "google"
+src_paths = ["otr"]
+line_length = 100
+known_first_party = ["otr"]
+
+
+[tool.yapf]
+based_on_style = "yapf"
+indent_width = 2

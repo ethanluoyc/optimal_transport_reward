@@ -1,0 +1,10 @@
+-r base.in
+pytest
+pytest-xdist
+pylint
+isort
+yapf
+flake8
+pre-commit
+pytype
+pip-compile-multi

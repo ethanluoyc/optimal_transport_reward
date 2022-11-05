@@ -1,0 +1,30 @@
+absl-py
+numpy
+-f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+jax[cuda]
+ott-jax
+tensorflow
+tensorflow_probability
+# DeepMind JAX eco-system
+dm-acme[jax,tf] @ git+https://github.com/deepmind/acme.git
+chex
+optax
+rlax
+dm-haiku
+dm-reverb
+dm-launchpad
+dm-tree
+# Environments
+# 0.24.0 defaults to the DeepMind's mujoco bindings which will break antmaze.
+# https://github.com/openai/gym/pull/2762
+gym<0.24.0
+dm_control
+d4rl @ git+https://github.com/Farama-Foundation/d4rl.git
+# The reason mujoco_py is pinned is so that we can apply a patch when
+# running inside docker/singularity.
+mujoco_py==2.1.2.14
+# Experiment utils
+PyYAML
+wandb
+ml_collections
+tqdm
