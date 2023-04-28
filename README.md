@@ -1,7 +1,22 @@
 # Official code for Optimal Transport Reward labeling (OTR)
 
-This repository includes the official JAX implementation for Optimal Transport Reward
-labeling (OTR) algorithm.
+![image](./images/overview.png)
+
+This repository includes the official JAX implementation of [Optimal Transport for Offline Imitation Learning](https://openreview.net/forum?id=MhuFzFsrfvH) 
+by Yicheng Luo, Zhengyao Jiang, Samuel Cohen, Edward Grefenstette, Marc Peter Deisenroth.
+
+If you find this repository useful, please cite our paper
+```bibtex
+@inproceedings{
+luo2023otr,
+title={Optimal Transport for Offline Imitation Learning},
+author={Yicheng Luo and Zhengyao Jiang and Samuel Cohen and Edward Grefenstette and Marc Peter Deisenroth},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=MhuFzFsrfvH}
+}
+```
+
 
 ## Installation
 ### Running with native Python
