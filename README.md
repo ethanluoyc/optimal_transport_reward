@@ -3,7 +3,7 @@
 ![image](./images/overview.png)
 
 This repository includes the official JAX implementation of [Optimal Transport for Offline Imitation Learning](https://openreview.net/forum?id=MhuFzFsrfvH) 
-by Yicheng Luo, Zhengyao Jiang, Samuel Cohen, Edward Grefenstette, Marc Peter Deisenroth.
+by [Yicheng Luo](https://luoyicheng.net), [Zhengyao Jiang](https://zhengyaojiang.github.io), [Samuel Cohen](https://twitter.com/CohenSamuel13), [Edward Grefenstette](https://www.egrefen.com), [Marc Peter Deisenroth](https://www.deisenroth.cc).
 
 If you find this repository useful, please cite our paper
 ```bibtex
@@ -72,7 +72,7 @@ Under the hood, it uses [OTT-JAX](https://github.com/ott-jax/ott) for solving th
 Optimal Transport problem and transform the optimal transport solution to rewards
 that can be used by an offline RL agent.
 
-## Licenses
+## Licenses and Acknowledgements
 The code is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 The IQL implementation is based on https://github.com/ikostrikov/implicit_q_learning which
 is under the MIT license.
