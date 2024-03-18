@@ -2,6 +2,10 @@
 
 ![image](./images/overview.png)
 
+> [!NOTE]  
+> This repository is published for archival purpose, and captures the version of the software used for reproducing the results. There is no intent from the author to continue maintainence and development in this repository.
+> If you are interested in using OTR alongside other RL algorithms in [JAX](https://github.com/google/jax), you may want to check out https://github.com/ethanluoyc/corax, which includes the an implementation of OTR as well as many RL algorithms.
+
 This repository includes the official JAX implementation of [Optimal Transport for Offline Imitation Learning](https://openreview.net/forum?id=MhuFzFsrfvH) 
 by [Yicheng Luo](https://luoyicheng.net), [Zhengyao Jiang](https://zhengyaojiang.github.io), [Samuel Cohen](https://twitter.com/CohenSamuel13), [Edward Grefenstette](https://www.egrefen.com), [Marc Peter Deisenroth](https://www.deisenroth.cc).
 
